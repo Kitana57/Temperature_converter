@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="convert given temperature to desired one">
+    <meta name="author" content="Sonali Tripathy">
+    <title>Temperature converter</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body background="images/temp_bg.jpg">
+    <header>
+        <h2>🌞☃️🌡️Temperature Converter⛈️🌦️</h2>
+    </header>
+    <div class="container">
+        <div id="calctemp" >
+            <p class="enter-request">Please enter the temperature you want to convert</p>
+            <div class="input">
+                <div class="content" id="celsius">
+                    <input type="number" placeholder="0 &#8451" name="temperature" id="temperature">
+                    <span class="icon">&#8451</span>
+                </div>
+                <div class="content" id="fahrenheit">
+                    <input type="number" placeholder="0 &#8457" name="temperature" id="temperature">
+                    <span class="icon">&#8457</span>
+                </div>
+                <div class="content" id="kelvin">
+                    <input type="number" placeholder="0 &#8490" name="temperature" id="temperature">
+                    <span class="icon">&#8490</span>
+                </div>
+                <div class="button">
+                    <button>Reset</button>
+                </div>  
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

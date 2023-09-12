@@ -1,0 +1,109 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url('images/temp_bg.jpg');
+    background-repeat: no-repeat;
+    background-size:1540px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h2{
+    color: azure;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 1px 1px 4px black;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    height: 600px;
+    max-width: 600px;
+    box-sizing: border-box;
+    margin: 50px;
+    padding: 25px 65px;
+    min-height: 400px;
+   
+    background-color: transparent;
+    border-radius: 20px;
+    box-shadow: 2px 3px 8px black;
+    transition: 0.5s;
+}
+
+.container:hover{
+    background-color: rgb(209, 159, 159);
+}
+
+.enter-request{
+    color: rgb(242, 244, 246);
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    text-shadow: 2px 3px 4px rgb(65, 62, 62);
+    margin: 20px;
+}
+ .content{
+    display: inline-flex;
+    justify-items: center;
+    align-items: center;
+} 
+
+.input{
+    margin: 50px;
+}
+
+input{
+    outline: none;
+    height: 55px;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px ;
+    border: none;
+    font-size: 25px;
+    box-shadow: 2px 3px 4px black;
+}
+
+span{
+    background-color: rgb(109, 193, 232);
+    height: 55px;
+    width: 55px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 2px 3px 4px black;
+    margin: 7px; 
+}
+
+.button{
+    margin: 20px;
+}
+
+button{
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 3px 4px black;
+    background-color: rgb(181, 181, 234);
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: rgb(168, 168, 219);
+}
